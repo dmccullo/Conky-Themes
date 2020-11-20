@@ -79,8 +79,8 @@ ${offset 15}${font Ubuntu:bold:size=10}${color4}Uptime: $uptime
 
 # Showing CPU Graph
 ${voffset 20}
+${offset 190}${font Ubuntu:bold:size=11}${color4}CPU
 ${offset 120}${cpugraph 40,183 fc5400 fc5400}${voffset -25}
-${offset 140}${font Ubuntu:bold:size=11}${color4}CPU
 # Showing TOP 5 CPU-consumers
 ${offset 105}${font Ubuntu:bold:size=10}${color4}${top name 1}${alignr}${top cpu 1}%
 ${offset 105}${font Ubuntu:bold:size=10}${color4}${top name 2}${alignr}${top cpu 2}%
